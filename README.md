@@ -76,7 +76,7 @@ App/
 ### 1. Clone Repository
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/zev-coder/Authentication-System-With-Jwt-Django>
 cd App
 ```
 
@@ -194,6 +194,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
 
 
 
