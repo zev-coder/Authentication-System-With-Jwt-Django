@@ -195,6 +195,12 @@ class RegisterSerializer(serializers.ModelSerializer):
 
 ---
 
+---
+
+## 📜 Lisence
+this project is open-sourced under MIT LISENCE
+
+
 
 
 
