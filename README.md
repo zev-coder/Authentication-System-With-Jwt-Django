@@ -1,4 +1,14 @@
-## for portofolio and education purpose
+---
+
+#### ⚠️ For Portofolio And Education Purpose
+---
+
+
+
+<center>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="60"/>
+</center>
 
 # 🔐 Django JWT Authentication API
 
@@ -179,6 +189,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
 
 
 
