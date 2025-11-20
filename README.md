@@ -190,10 +190,11 @@ class RegisterSerializer(serializers.ModelSerializer):
 ## 📌 Note
 
 * Makesure **AllowAny** used just upon to endpoint public (register & login).
-*  Another Endpoint must use pakai **IsAuthenticated**.
+*  Another Endpoint must using **IsAuthenticated**.
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
 
 
 
