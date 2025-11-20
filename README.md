@@ -5,10 +5,10 @@
 
 
 
-<center>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="60"/>
-</center>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django Logo" width="80" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" width="80" />
+</p>
 
 # 🔐 Django JWT Authentication API
 
@@ -189,6 +189,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
 
 
 
