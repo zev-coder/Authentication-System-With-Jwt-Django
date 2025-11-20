@@ -2,7 +2,7 @@
 
 # 🔐 Django JWT Authentication API
 
-This project is result of implementation **Authentication menggunakan JWT (JSON Web Token)** with **Django REST Framework** and **SimpleJWT**.  
+This project is result of implementation **Authentication using JWT (JSON Web Token)** with **Django REST Framework** and **SimpleJWT**.  
 The main purpose of this repo is giving an example how to make login system, registering, endpoint protection, and refresh token as basic of microsevices authentication
 ---
 
@@ -178,3 +178,4 @@ class RegisterSerializer(serializers.ModelSerializer):
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
