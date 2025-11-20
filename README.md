@@ -29,29 +29,30 @@ The main purpose of this repo is giving an example how to make login system, reg
 
 ## 📁 Struktur Project
 
+```
 App/
-├── App/
-│ ├── __init__.py
-│ ├── asgi.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
+├── App/              # Main Project
+│   ├── settings.py   # Project Configuration
+│   ├── urls.py       # Main Routing
+│   ├── asgi.py
+│   ├── wsgi.py
+│   └── __init__.py
 │
-├── Auth/
-│ ├── migrations/
-│ ├── __init__.py
-│ ├── admin.py
-│ ├── apps.py
-│ ├── models.py
-│ ├── serializers.py
-│ ├── tests.py
-│ ├── urls.py
-│ ├── views.py
+├── Auth/             # Spesfic Application For Authentication
+│   ├── models.py     # Model Custom Users
+│   ├── serializers.py # Serializer For Register & Login
+│   ├── views.py      # ViewHandler Auth
+│   ├── urls.py       # Routing For Auth
+│   ├── admin.py
+│   ├── apps.py
+│   ├── tests.py
+│   ├── migrations/
+│   └── __init__.py
 │
-├── db.sqlite3
-├── manage.py
-├── README.md
-└── requirements.txt
+├── manage.py         # Entry point Django
+├── db.sqlite3        # Database default
+└── requirements.txt  # Dependencies
+```
 
 ---
 
@@ -178,4 +179,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 *  `REST_FRAMEWORK` and JWT settings in `settings.py`.
 
 ---
+
+
+
 
