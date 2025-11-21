@@ -32,7 +32,7 @@ The main purpose of this repo is giving an example how to make login system, reg
 - 
 ---
 
-## 🛠️ Tehchnology
+## 🛠️ Technology
 
 - Python 3.x  
 - Django 4.x  
@@ -199,6 +199,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 ## 📜 Lisence
 this project is open-sourced under MIT LISENCE
 ---
+
 
 
 
