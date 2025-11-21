@@ -32,7 +32,7 @@ The main purpose of this repo is giving an example how to make login system, reg
 - 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Tehchnology
 
 - Python 3.x  
 - Django 4.x  
@@ -42,7 +42,7 @@ The main purpose of this repo is giving an example how to make login system, reg
 
 ---
 
-## 📁 Struktur Project
+## 📁 App Structure
 
 ```
 App/
@@ -199,6 +199,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 ## 📜 Lisence
 this project is open-sourced under MIT LISENCE
 ---
+
 
 
 
